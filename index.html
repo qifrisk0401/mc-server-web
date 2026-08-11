@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>祈州市-Minecraft架空城市</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="logo-block"></div>
+            <span class="brand-text">祈州市交通局</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">首页</a></li>
+            <li><a href="#features">新闻</a></li>
+            <li><a href="#gallery">世界画廊</a></li>
+            <li><a href="#stats">MTR实时地图</a></li>
+            <li><a href="#rules">建设规则</a></li>
+        </ul>
+          <div class="nav-actions">
+        <span class="online-status">
+            <span class="status-dot"></span>
+        </span>
+              <a href="download.html" class="btn btn-primary">下载整合包</a>
+    </div>
+
+        <button class="mobile-menu-btn" aria-label="菜单">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="pixel-grid"></div>
+            <div class="floating-blocks">
+                <div class="float-block" style="--delay:0s;--x:10%;--y:20%"></div>
+                <div class="float-block" style="--delay:2s;--x:80%;--y:15%"></div>
+                <div class="float-block" style="--delay:4s;--x:60%;--y:70%"></div>
+                <div class="float-block" style="--delay:1s;--x:30%;--y:60%"></div>
+                <div class="float-block" style="--delay:3s;--x:90%;--y:50%"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="server-badge">Minecraft架空城市</div>
+            <h1 class="hero-title">
+                <span class="title-line">祈州市交通局</span>
+               
+            </h1>
+            <p class="hero-desc">
+                祈州市交通局主管各项交通基建工程<br>
+                主体为MTR电铁系统运营以及道路建设
+            </p>
+            <div class="hero-actions">
+                <button class="btn btn-large btn-glow" onclick="copyIP()">
+                    
+                    <span class="ip-text">立即加入</span>
+                </button>
+                <button class="btn btn-large btn-outline">查看地图</button>
+            </div>
+            <div class="server-info-bar">
+                <div class="info-item">
+                    <span class="info-value">1.20.1</span>
+                    <span class="info-label">游戏版本</span>
+                </div>
+                <div class="info-divider"></div>
+                <div class="info-item">
+                    <span class="info-value">1条</span>
+                    <span class="info-label">电铁线路</span>
+                </div>
+                <div class="info-divider"></div>
+                <div class="info-item">
+                    <span class="info-value">10km+</span>
+                    <span class="info-label">运营里程</span>
+                </div>
+                <div class="info-divider"></div>
+                <div class="info-item">
+                    <span class="info-value">5:30-23:30</span>
+                    <span class="info-label">运行时间</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>向下滚动</span>
+        </div>
+    </section>
+
+    <!-- 新闻 -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">NEWS</span>
+                <h2 class="section-title">新闻</h2>
+                <p class="section-desc">各项工程建设进度及施工告知</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon survival"></div>
+                    <h3>电铁建设进度</h3>
+                    <p>建设中电铁的建设进度</p>
+                    <div class="feature-tags">
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon economy"></div>
+                    <h3>施工公告</h3>
+                    <p>施工计划公告</p>
+                    <div class="feature-tags">
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon build"></div>
+                    <h3>审批进度</h3>
+                    <p>各项交通工程规划的审批进度</p>
+                    <div class="feature-tags">
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon dungeon"></div>
+                    <h3>其他新闻</h3>
+                    <p>封禁公告，追加包使用，招标投标公告等</p>
+                    <div class="feature-tags">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 运营线路清单 -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The operating line</span>
+                <h2 class="section-title">已营运线路</h2>
+                <button class="btn btn-large btn-outline"><a href="routes.html" class="active">点击查看</a></button>
+
+    <!-- 世界画廊 -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">GALLERY</span>
+                <h2 class="section-title">画廊</h2>
+                <p class="section-desc">优秀设计站点作品（暂未开放）</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #1a5f2a 0%, #0d3320 100%);">
+                        <div class="placeholder-text">站1</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>站1</h4>
+                        <p>站1简介</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #2d1b69 0%, #1a0f3d 100%);">
+                        <div class="placeholder-text">站2</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>站2</h4>
+                        <p>站2简介</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #8b4513 0%, #4a2508 100%);">
+                        <div class="placeholder-text">站3</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>站3</h4>
+                        <p>站3简介</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f1f33 100%);">
+                        <div class="placeholder-text">站4</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>站4</h4>
+                        <p>站4简介</p>
+                    </div>
+                </div>
+                <div class="gallery-item wide">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #5f1e3a 0%, #330f1f 100%);">
+                        <div class="placeholder-text">站5</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>站5</h4>
+                        <p>站5简介</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 实时地图 -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Real-time Map</span>
+                <h2 class="section-title">实时地图</h2>
+                <button class="btn btn-large btn-outline"><a href="#" class="active">祈州市MTR系统实时运行图</a></button>
+
+    <!-- 游戏规则 -->
+    <section id="rules" class="rules">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">RULES</span>
+                <h2 class="section-title">游戏规则</h2>
+                <p class="section-desc">服务器原则：公平、友善、创造</p>
+            </div>
+            <div class="rules-container">
+                <div class="rules-list">
+                    <div class="rule-item">
+                        <div class="rule-num">01</div>
+                        <div class="rule-content">
+                            <h4>尊重他人</h4>
+                            <p>禁止辱骂、歧视、骚扰其他玩家。保持友善的交流环境。</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-num">02</div>
+                        <div class="rule-content">
+                            <h4>保护建筑</h4>
+                            <p>禁止恶意破坏他人建筑。未经同意不得修改他人物品。</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <div class="rule-num">03</div>
+                        <div class="rule-content">
+                            <h4>禁止广告</h4>
+                            <p>禁止宣传其他服务器或发布无关商业广告。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rules-visual">
+                    <div class="rule-block"></div>
+                    <div class="rule-particles"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-block"></div>
+                    <h3>祈州市</h3>
+                    <p>以Minecraft Transport Railway模组为基础的Minecraft架空城市</p>
+                    <div class="social-links">
+                        <a href="https://qun.qq.com/universal-share/share?ac=1&authKey=5Q9xw9%2BcxOAXzB6ohcOcgROq6111fko80m%2FEWzGecjyMGO8ZPhEmeP5PFj%2FPuko1&busi_data=eyJncm91cENvZGUiOiI1NzYyODU1NDUiLCJ0b2tlbiI6Ik9FckFka1JpMDlDbytPQUh0WGxlVzhLZ0lvZUw2TEtycytoMU91YWhDZmxmZHJqSjFMWHlzbW9Ua0NrRlplRXMiLCJ1aW4iOiIzMjMwOTczODkifQ%3D%3D&data=TBqbtHS_VASTr5iY3qAMUnTG0qfjeUltB2il7S_tn0GmL10WER9RuCfXsndDzjJlVhiZTGjJFUM0-ohU65WQZA&svctype=4&tempid=h5_group_info" class="social-link" title="QQ群">QQ</a>
+                        <a href="https://b23.tv/h1Gv1eZ" class="social-link" title="Bilibili">B站</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#">地图查看</a></li>
+                        <li><a href="#">捐赠支持</a></li>
+                        <li><a href="#">封禁查询</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>帮助中心</h4>
+                    <ul>
+                        <li><a href="#">指令大全</a></li>
+                        <li><a href="#">联系管理</a></li>
+                    </ul>
+                </div>
+                <div class="footer-join">
+                    <h4>立即加入</h4>
+                    <div class="join-box">
+                        <code>mc.qizhouMTR.cn</code>
+                        <button class="btn btn-small" onclick="copyIP()">复制 IP</button>
+                    </div>
+                    <p class="version-info">支持 Java 1.20.1</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> Qizhou Minecraft Server. 非官方 Mojang 产品。</p>
+                <p>Made by friskkkkk </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast 提示 -->
+    <div class="toast" id="toast">
+        <span class="toast-icon">✓</span>
+        <span class="toast-message">IP 已复制到剪贴板！</span>
+    </div>
+
+    <script>
+        // 复制 IP 功能
+        function copyIP() {
+            navigator.clipboard.writeText('mc.pixelrealm.cn').then(() => {
+                const toast = document.getElementById('toast');
+                toast.classList.add('show');
+                setTimeout(() => toast.classList.remove('show'), 3000);
+            });
+        }
+
+        // 数字滚动动画
+        const statNumbers = document.querySelectorAll('.stat-number');
+        const observerOptions = { threshold: 0.5 };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = parseInt(entry.target.getAttribute('data-target'));
+                    animateNumber(entry.target, target);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        statNumbers.forEach(num => observer.observe(num));
+
+        function animateNumber(element, target) {
+            const duration = 2000;
+            const start = 0;
+            const startTime = performance.now();
+            
+            function update(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const easeOut = 1 - Math.pow(1 - progress, 3);
+                const current = Math.floor(start + (target - start) * easeOut);
+                
+                if (target >= 1000000) {
+                    element.textContent = (current / 1000000).toFixed(1) + 'M+';
+                } else if (target >= 1000) {
+                    element.textContent = (current / 1000).toFixed(0) + 'K+';
+                } else {
+                    element.textContent = current;
+                }
+                
+                if (progress < 1) {
+                    requestAnimationFrame(update);
+                }
+            }
+            requestAnimationFrame(update);
+        }
+
+        // 导航栏滚动效果
+        const navbar = document.querySelector('.navbar');
+        let lastScroll = 0;
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // 移动端菜单
+        const mobileBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        mobileBtn.addEventListener('click', () => {
+            mobileBtn.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
